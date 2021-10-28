@@ -12,12 +12,11 @@ body {
 
 .hero {
   background-color: var(--primary-color);
-  text-align: center;
   padding: 160px 20px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
   line-height: 28px;
   font-weight: 400;
   font-style: normal;
@@ -50,6 +49,32 @@ h3 {
   font-size: 14px;
   line-height: 17px;
 }
-/* footer {
-    background-color: #282323;
-} */
+
+.project-description {
+    color: --secondary-color;
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+    body {
+        padding-right: 60px;
+    }
+
+    .intro {
+        margin-top: -80px;
+    }
+    h1 {
+        font-size: 55px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+}
+
+

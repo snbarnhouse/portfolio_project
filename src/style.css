@@ -8,6 +8,7 @@
 body {
   font-family: var(--default-font-family);
   color: var(--secondary-color);
+  background-color: #282323;
 }
 
 .hero {
@@ -60,12 +61,13 @@ h3 {
 
 @media (max-width: 900px) {
     body {
-        padding-right: 60px;
+        background-color: var(--primary-color);
     }
 
     .intro {
         margin-top: -80px;
     }
+
     h1 {
         font-size: 55px;
     }

@@ -62,11 +62,16 @@ h3 {
 @media (max-width: 900px) {
     body {
         background-color: var(--primary-color);
+        text-align: center;
     }
 
     .intro {
-        margin-top: -80px;
+        margin-top: -50px;
     }
+
+    .hero {
+    padding: 80px 20px;
+  }
 
     h1 {
         font-size: 55px;

@@ -59,7 +59,7 @@ h3 {
     padding: 120px 60px;
 }
 
-.about-section {
+.content-section {
   background-color: var(--primary-color);
   padding: 100px 20px;
 }
@@ -69,30 +69,40 @@ h3 {
   border-radius: 3%;
 }
 
-.about-section h3 {
+.content-section h3 {
   margin-top: 5px;
 }
 
-.about-section h2, h3 {
+.content-section h2, h3 {
    color: #F65282;
    text-transform: uppercase;
    font-size: 18px;
    line-height: 21px;
 }
 
-.about-section h1 {
+.content-section h1 {
   margin-bottom: 20px;
   font-size: 64px;
   text-transform: uppercase;
   line-height: 75px;
 }
 
-.about-section p {
+.content-section p {
   margin: 20px 0 30px 0;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
 }
+
+.project-screenshot {
+  max-width: 80%;
+  border-radius: 3%;
+}
+
+.my-work {
+  padding-bottom: 100px;
+}
+
 
 @media (max-width: 900px) {
     body {

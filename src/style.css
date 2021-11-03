@@ -59,6 +59,38 @@ h3 {
     padding: 120px 60px;
 }
 
+.head-shot {
+  max-width: 75%;
+  margin-top: 80px;
+  border-radius: 3%;
+}
+
+.about-section h3 {
+  margin-top: 55px;
+  /* padding: 120px 60px; */
+}
+
+.about-section h2, h3 {
+   color: #F65282;
+   text-transform: uppercase;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.about-section h1 {
+  margin-bottom: 20px;
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 75px;
+}
+
+.about-section p {
+  margin: 20px 0 30px 0;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
 @media (max-width: 900px) {
     body {
         text-align: center;

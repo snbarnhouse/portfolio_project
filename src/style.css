@@ -52,22 +52,25 @@ h3 {
 }
 
 .project-description {
-    color: --secondary-color;
+    color: var(--secondary-color);
     font-family: var(--default-font-family);
     font-size: 16px;
     line-height: 1.5;
     padding: 120px 60px;
 }
 
+.about-section {
+  background-color: var(--primary-color);
+  padding: 100px 20px;
+}
+
 .head-shot {
   max-width: 75%;
-  margin-top: 80px;
   border-radius: 3%;
 }
 
 .about-section h3 {
-  margin-top: 55px;
-  /* padding: 120px 60px; */
+  margin-top: 5px;
 }
 
 .about-section h2, h3 {

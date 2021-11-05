@@ -15,6 +15,10 @@ body {
   background-color: #282323;
 }
 
+.navbar a:hover {
+  color: #F65282 !important;
+}
+
 .hero, .content-section {
   background-color: var(--primary-color);
   padding: 160px 20px;

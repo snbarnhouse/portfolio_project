@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #1b1b1b;
-    --secondary-color: #ffffff;
-    --default-font-family: "Roboto", sans-serif;
-    --button-font-family: Montserrat;
+  --primary-color: #1b1b1b;
+  --secondary-color: #ffffff;
+  --default-font-family: "Roboto", sans-serif;
+  --button-font-family: Montserrat;
 }
 
 body {
@@ -16,10 +16,11 @@ body {
 }
 
 .navbar a:hover {
-  color: #F65282 !important;
+  color: #f65282 !important;
 }
 
-.hero, .content-section {
+.hero,
+.content-section {
   background-color: var(--primary-color);
   padding: 160px 20px;
 }
@@ -60,11 +61,11 @@ h3 {
 }
 
 .project-description {
-    color: var(--secondary-color);
-    font-family: var(--default-font-family);
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 120px 60px;
+  color: var(--secondary-color);
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 120px 60px;
 }
 
 .head-shot {
@@ -76,11 +77,12 @@ h3 {
   margin-top: 5px;
 }
 
-.content-section h2, h3 {
-   color: #F65282;
-   text-transform: uppercase;
-   font-size: 18px;
-   line-height: 21px;
+.content-section h2,
+h3 {
+  color: #f65282;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .content-section h1 {
@@ -128,32 +130,31 @@ footer a {
 
 footer a:hover {
   color: var(--secondary-color);
-  background-color: #F65282;
+  background-color: #f65282;
 }
 
 @media (max-width: 900px) {
-    body {
-        text-align: center;
-    }
+  body {
+    text-align: center;
+  }
 
-    .intro {
-        margin-top: -50px;
-    }
+  .intro {
+    margin-top: -50px;
+  }
 
-    .hero {
+  .hero,
+  .content-section {
     padding: 80px 20px;
     margin-top: 60px;
   }
 
-    h1 {
-        font-size: 55px;
-    }
+  h1 {
+    font-size: 55px;
+  }
 
-    .project-description {
-        padding: 0;
-        text-align: center;
-    }
-
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+ 
 }
-
-

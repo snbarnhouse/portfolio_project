@@ -136,6 +136,7 @@ footer a:hover {
 @media (max-width: 900px) {
   body {
     text-align: center;
+    background-color: var(--primary-color);
   }
 
   .intro {
@@ -155,6 +156,11 @@ footer a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  footer {
+    padding: 10px 10px;
+    margin-bottom: 0;
   }
  
 }

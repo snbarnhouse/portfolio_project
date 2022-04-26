@@ -2,7 +2,7 @@
 
 ## Description/Features
 
-A professional, responsive portfolio that displays my work, has an about me section, and a contact me page along with socail media links.
+A professional, responsive portfolio that displays my work, has an about me section, and a contact me page along with social media links.
 
 ## Tech Stack
 

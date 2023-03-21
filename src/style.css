@@ -23,7 +23,7 @@ body {
 .content-section {
   background-color: var(--primary-color);
   padding: 160px 20px;
-  min-height: 100vh;
+  min-height: 96vh;
 }
 
 h2 {

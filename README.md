@@ -15,4 +15,4 @@ GitHub Repository: https://github.com/snbarnhouse/portfolio_project
 
 Deployed: https://dreamy-visvesvaraya-894128.netlify.app/
 
-![Responsive Portfolio](https://user-images.githubusercontent.com/77131387/209989748-277e051c-c818-46f1-8261-d8da7e38440a.png)
+![Responsive Portfolio](https://user-images.githubusercontent.com/77131387/227967795-6016b533-9aa1-4035-b2c3-c63df0d624c8.png)

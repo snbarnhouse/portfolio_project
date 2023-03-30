@@ -180,8 +180,12 @@ footer a:hover {
   }
 
   .my-work {
-    padding-bottom: 25px;
-    font-size: 50px !important;
+    padding-bottom: 15px;
+    font-size: 48px !important;
+  }
+
+  .get-in-touch {
+    font-size: 48px !important;
   }
  
 }
